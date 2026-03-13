@@ -14,14 +14,14 @@ A containerized Streamlit app that analyzes research papers and generates answer
 
 ## Usage
 
-1. **Pull the Docker image** from Docker Hub:
+1. **Pull the github repo** from git Hub:
    ```bash
-   docker pull Usamafiaz35/rag_streamlit_app_research_paper_analyzer
+   pull https://github.com/Usamafiaz35/RAG_Research_Paper_Analyzer.git
 
-2. **Run the Docker container**:
+2. **Run the code file**:
    Start the container and expose it on port 8501.
    ```bash
-   docker run -p 8501:8501 Usamafiaz35/rag_streamlit_app_research_paper_analyzer
+
 
 3. **Access the Streamlit app**:
    Once the container is running, open your web browser and navigate to [http://localhost:8501](http://localhost:8501) to access the app interface.
